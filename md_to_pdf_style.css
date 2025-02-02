@@ -1,0 +1,38 @@
+body
+{
+    font-family: 'Malgun Gothic' !important;
+}
+
+code
+{
+    color: #0b5394 !important;
+    background-color: #e8f0fe !important;
+    font-family: Consolas !important;
+    border-radius: 4px !important;
+    padding: 0 3px !important;
+}
+
+pre
+{   
+    background-color: #efefef !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    page-break-inside: avoid !important;
+}
+
+pre code
+{
+    color: #333333 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+img
+{
+    page-break-inside: avoid !important;
+}
+
+table
+{
+    page-break-inside: avoid !important;
+}
