@@ -3,6 +3,16 @@ body
     font-family: 'Malgun Gothic' !important;
 }
 
+p
+{
+    margin: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin: 2px !important;
+}
+
 code
 {
     color: #0b5394 !important;
@@ -21,7 +31,7 @@ pre
 
 pre code
 {
-    color: #333333 !important;
+    /*color: #333333 !important;*/
     padding: 0px !important;
     margin: 0px !important;
 }
@@ -29,9 +39,23 @@ pre code
 img
 {
     page-break-inside: avoid !important;
+    margin: 0 !important;
 }
 
 table
 {
     page-break-inside: avoid !important;
+    margin: 0 !important;
+}
+
+.MathJax_Display {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.katex-display {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
