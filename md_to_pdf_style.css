@@ -50,7 +50,7 @@ img
 
 table
 {
-    page-break-inside: avoid !important;
+    /*page-break-inside: avoid !important;*/
     margin: 0 !important;
 }
 
